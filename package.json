@@ -1,0 +1,21 @@
+{
+  "name": "rc-app",
+  "version": "0.0.0",
+  "description": "remote control app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [
+    "remote",
+    "control"
+  ],
+  "author": "emxttr",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^2.0.0",
+    "robotjs": "^0.6.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
